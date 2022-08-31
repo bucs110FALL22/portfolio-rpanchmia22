@@ -12,6 +12,6 @@ Welcome to CS 110. I look forward to working with you this semester. This is you
 
 Preferred Name: Roman
 
-Discord username: Roman Panchmia
+Discord username: Roman.#3778
 
 REPL url: https://replit.com/@RomanPanchmia
