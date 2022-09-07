@@ -12,7 +12,13 @@ print("Classes per week:", classes_per_week)
 cost_per_class = (cost_per_week // classes_per_week)
 print("Cost per class:", cost_per_class)
 
+print("---------------------")
 print(weeks,type(weeks))
+print(classes,type(classes))
+print(tuition,type(tuition))
+print(cost_per_week,type(cost_per_week))
+print(classes_per_week,type(classes_per_week))
+print(cost_per_class,type(cost_per_class))
 
 #Part B
 print("---------------------------------------------")
