@@ -21,7 +21,6 @@ def cointoss():
 
 
 while xx > -100 and xx < 100 and yy > -100 and yy < 100:
-  print(xx, yy)
   xx = animal.xcor()
   yy = animal.ycor()
   if(cointoss() == "Heads"):
