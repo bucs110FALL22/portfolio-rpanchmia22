@@ -53,7 +53,6 @@ for s in sides:
     x = side_length * math.cos(theta) + offset
     y = side_length * math.sin(theta) + offset
     coords.append([x, y])
-    
   window.fill("red")
   pygame.display.flip()
   pygame.draw.polygon(window,color,coords)
