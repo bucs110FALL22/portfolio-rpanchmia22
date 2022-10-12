@@ -18,11 +18,11 @@ For each one below you should have a basic description of a program idea, a coup
 
 ## Project Idea 1
 
-< add your idea here >
+Game of pong, with power-ups.
 
 ## Project Idea 2
 
-< add your idea here >
+Ice hocky table
 
 ## Project Idea 3
 

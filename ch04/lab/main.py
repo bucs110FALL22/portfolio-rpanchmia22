@@ -38,11 +38,11 @@ while running:
     if event.type == pygame.MOUSEBUTTONDOWN:
       x,y = pygame.mouse.get_pos()
       if pygame.Rect.collidepoint(redbox, (x,y)):
-        print("Player 1 selected")
+        print("Player 1 Selected")
         pchoice = pchoice + 1
         running = False
       if pygame.Rect.collidepoint(bluebox, (x,y)):
-        print("Player 2 selected")
+        print("Player 2 Selected")
         pchoice = pchoice + 2
         running = False
     if event.type == pygame.QUIT:
@@ -86,19 +86,28 @@ for i in range(10):
 if pchoice == 1:
   if points1 > points2:
     print("Player 1 Wins!")
-    print("You guessed correctly!")
+    print("Player 1 Score: " + str(points1))
+    print("You Guessed Correctly!")
   elif points2 > points1:
     print("Player 2 Wins!")
-    print("You guessed incorrectly!")
+    print("Player 2 Score: " + str(points2))
+    print("You Guessed Incorrectly!")
   elif points1 == points2:
-    print("It's a tie!")
-
+    print("Player 1 Score: " + str(points1))
+    print("Player 2 Score: " + str(points2))
+    print("It's a Tie!")
 if pchoice == 2:
   if points1 > points2:
     print("Player 1 Wins!")
-    print("You guessed incorrectly!")
+    print("Player 1 Score: " + str(points1))
+    print("You Guessed Incorrectly!")
   elif points2 > points1:
     print("Player 2 Wins!")
-    print("You guessed correctly!")
+    print("Player 2 Score: " + str(points2))
+    print("You Guessed Correctly!")
   elif points1 == points2:
-    print("It's a tie!")
+    print("Player 1 Score: " + str(points1))
+    print("Player 2 Score: " + str(points2))
+    print("It's a Tie!")
+    
+
