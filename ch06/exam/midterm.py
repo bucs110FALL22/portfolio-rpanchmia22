@@ -40,8 +40,6 @@ def base():
   bob.end_fill()
 
 
-
-
 def roof():
   #This function tells the user to input a color for the roof, and then draws the roof. 
   rcol = input("Pick a color for the roof: ")
