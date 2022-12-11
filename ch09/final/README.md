@@ -1,13 +1,13 @@
 # CS 110 FINAL EXAM 
 
 ## SHORT DESCRIPTION
-#### This program prints the holiday of the inputed date, and uses that holiday to find the average temperature on that day. 
+#### This program prints the US holiday of the inputed date, and uses that holiday to find the average temperature on that day in a certain state. 
 
 ## KNOWN BUGS
 #### None
 
 ## REFERENCES
-#### weatherstack.com and calendarific.com
+#### | https://github.com/toddmotto/public-apis | weatherstack.com | calendarific.com |
 
 ## MISCELLANEOUS
 #### None
