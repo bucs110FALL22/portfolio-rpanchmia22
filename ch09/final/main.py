@@ -4,9 +4,9 @@ import string
 
 def main():
   
+  year = int(input("Enter the past year of your holiday: "))
   day = int(input("Enter the day of your holiday: "))
   month = int(input("Enter the month of your holiday as a number: "))
-  year = int(input("Enter a past year: "))
   
   holiday = Holidays.getHolidays(day,month,year)
   holidayResult = holiday.get()
@@ -17,7 +17,7 @@ def main():
     day = "0" + str(day)
   if month < 10:
     month = "0" + str(month)
-  date = str(year)+"-"+str(day)+"-"+str(month)
+  date = str(year)+"-"+str(month)+"-"+str(day)
   print("Date: " + str(date))
   
   state = str(input("Enter the full name of a state: "))
@@ -29,6 +29,6 @@ def main():
   temp = weatherResult['historical'][date]['avgtemp']
   print("Temperature: " + str(temp))
   
-  print("In " + str(state) + ", on " + str(holiname) + " in " + str(state) + " the average temperature was " + str(temp) + " degrees Fahrenheit.")
+  print("In " + str(state) + ", on " + str(holiname) + " " + str(year) + " the average temperature was " + str(temp) + " degrees Fahrenheit.")
   
 main()

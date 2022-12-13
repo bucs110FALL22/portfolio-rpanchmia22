@@ -9,7 +9,7 @@ class getHolidays():
     return: none
     '''
     
-    self.url = f"https://calendarific.com/api/v2/holidays?api_key=d2a6ae279e873a3baae544cd88d4671437bf9552&country=US&year={year}&day={day}&month={month}&type=national"
+    self.url = f"https://calendarific.com/api/v2/holidays?api_key=d2a6ae279e873a3baae544cd88d4671437bf9552&country=US&year={year}&day={day}&month={month}"
   
   def __str__(self):
     
